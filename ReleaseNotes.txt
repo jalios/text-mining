@@ -1,0 +1,28 @@
+
+V 0.1
+----------
+ -initial release
+
+
+V 0.2
+----------
+ -George Mournos fixed a bug that involved documents that only contained unicode.
+
+v 0.3 (released only to BeeText)
+----------
+-Added support for Word 6 documents
+-No longer extracts text that has been deleted but left in the document for revision tracking.
+-Added the FastSaveException.
+-Removed the PDF Box support.
+
+v 0.4
+----------
+-Integrated it with the latest POI changes.
+-Added the PasswordProtectedException
+-fixed some bugs.
+
+v 1.0
+----------
+-Added support for Fast saved files
+-Added support for older versions of Word (Word 1.0 and 2.0 for Windows)
+-Changed license to LGPL
