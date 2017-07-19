@@ -6,3 +6,13 @@ Extracts text from fast-saved files as well.
 
 Initially imported from :
  [https://code.google.com/archive/p/text-mining/source/default/source](https://code.google.com/archive/p/text-mining/source/default/source)
+
+
+This version has the following improvement compared to the legacy project :
+ 
+- compatible with Apache POI (version 3.16)
+- mavenized project
+- requires Java 8
+- use of generics
+
+This version is provided AS IS and is NOT actively maintained by Jalios.

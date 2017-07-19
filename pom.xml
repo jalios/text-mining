@@ -2,8 +2,12 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.textmining</groupId>
   <artifactId>tm-extractors</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.1-jalios</version>
   <properties>
+    <java.version>1.8</java.version>
+    <java.target.version>1.8</java.target.version>
+    <java.compiler.version>1.8</java.compiler.version>
+    <encoding>UTF-8</encoding>
     <junit.version>4.11</junit.version>
     <xmlunit.version>2.1.1</xmlunit.version>
     <poi.version>3.16</poi.version>
@@ -39,8 +43,10 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.6.1</version>
         <configuration>
-          <source/>
-          <target/>
+          <source>${java.version}</source>
+          <target>${java.target.version}</target>
+          <compilerVersion>${java.compiler.version}</compilerVersion>
+          <encoding>${encoding}</encoding>
         </configuration>
       </plugin>
       <plugin>
