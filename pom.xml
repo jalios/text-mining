@@ -10,7 +10,7 @@
     <encoding>UTF-8</encoding>
     <junit.version>4.13.1</junit.version>
     <xmlunit.version>2.1.1</xmlunit.version>
-    <poi.version>3.16</poi.version>
+    <poi.version>3.17</poi.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   
