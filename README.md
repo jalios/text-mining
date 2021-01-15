@@ -10,7 +10,7 @@ Initially imported from :
 
 This version has the following improvement compared to the legacy project :
  
-- compatible with Apache POI (version 3.16)
+- compatible with Apache POI (version 3.17)
 - mavenized project
 - requires Java 8
 - use of generics
